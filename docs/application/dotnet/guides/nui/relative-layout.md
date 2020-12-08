@@ -22,11 +22,24 @@ Here are the attached properties of `RelativeLayout`:
 
 <a name="targetandrelativeoffset"></a>
 ## Target And RelativeOffset
-`Target` and `RelativeOffset` determine a size for layout space.
+ `Target` and `RelativeOffset` properties determine a size for layout space.
 
-`Target` indicates the target view that each edge of layout space is aligned with. default value is `null` that means parent relative layout.
+ `Target` indicates the target view that each edge of layout space is aligned with. the default is `null` that means parent relative layout.
 
-`RelativeOffset` moves a each edge of layout space in proportion to target view size.<br/>
+ `RelativeOffset` moves a each edge of layout space in proportion to target view size.<br/>
 When the value is `0.0f`, edge of layout space is aligned with left/top edge of target view.<br/>
 When the value is `1.0f`,  edge of layout space is aligned with right/bottom edge of target view.
 
+<a name="alignment"></a>
+## Alignment
+ `HorizontalAlignment` and `VerticalAlignment` properties describe how to align the child view with layout space. the default is `Start`, for both axes.
+ |Start|Center|End|
+ |:---:|:---:|:---:|
+ ||||
+ 
+ <a name="fill"></a>
+## Fill
+ `FillHorizontal` and `FillHorizontal` properties are a boolean value that specifies whether to fill the layout space. the default is `false`, for both axes.
+ |false|true|
+ |:---:|:---:|
+ |||
