@@ -30,16 +30,18 @@ Here are the attached properties of `RelativeLayout`:
 When the value is `0.0f`, edge of layout space is aligned with left/top edge of target view.<br/>
 When the value is `1.0f`,  edge of layout space is aligned with right/bottom edge of target view.
 
+![RelativeLayoutTargetRelativeOffset](./media/relativeLayoutTargetRelativeOffset.PNG)
+
 <a name="alignment"></a>
 ## Alignment
  `HorizontalAlignment` and `VerticalAlignment` properties describe how to align the child view with layout space. the default is `Start`, for both axes.
  |Start|Center|End|
  |:---:|:---:|:---:|
- ||||
+ |![RelativeAlignStart](./media/relativeLayoutAlignStart.PNG)|![RelativeAlignCenter](./media/relativeLayoutAlignCenter.PNG)|![RelativeAlignEnd](./media/relativeLayoutAlignEnd.PNG)|
  
  <a name="fill"></a>
 ## Fill
  `FillHorizontal` and `FillHorizontal` properties are a boolean value that specifies whether to fill the layout space. the default is `false`, for both axes.
  |false|true|
  |:---:|:---:|
- |||
+ |![RelativeAlignCenter](./media/relativeLayoutAlignCenter.PNG)|![RelativeFill](./media/relativeLayoutFill.PNG)|
